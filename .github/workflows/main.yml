@@ -20,9 +20,9 @@ jobs:
       with:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        application_name: Game-React
-        environment_name: Game-React-env
+        application_name: FEat
+        environment_name: FEat-dev
         version_label: ${{ github.sha }}
-        existing_buckey_name: elasticbeanstalk-ap-south-1-455600284230
-        region: ap-south-1
+        existing_buckey_name: elasticbeanstalk-us-east-1-455600284230
+        region: us-east-1
         deployment_package: deploy.zip
