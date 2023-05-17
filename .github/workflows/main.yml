@@ -20,8 +20,8 @@ jobs:
       with:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        application_name: FEat
-        environment_name: FEat-dev
+        application_name: TZFE 
+        environment_name: TZFE-env 
         version_label: ${{ github.sha }}
         existing_bucket_name: elasticbeanstalk-us-east-1-455600284230
         region: us-east-1
