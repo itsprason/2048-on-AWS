@@ -23,6 +23,6 @@ jobs:
         application_name: FEat
         environment_name: FEat-dev
         version_label: ${{ github.sha }}
-        existing_buckey_name: elasticbeanstalk-us-east-1-455600284230
+        existing_bucket_name: elasticbeanstalk-us-east-1-455600284230
         region: us-east-1
         deployment_package: deploy.zip
